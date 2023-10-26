@@ -1,0 +1,366 @@
+body {
+  background-color: #1d1e20;
+}
+
+.first-sec {
+  background: url(first-image.jpg);
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* background-color: rgba(51, 51, 51, 0.7); */
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+  align-items: center;
+  transition: background-color 0.3s;
+  position: fixed;
+  width: 99%;
+  margin: 0;
+  top: 0;
+  z-index: 0;
+}
+nav img {
+  margin-left: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline;
+  float: right;
+  clear: right;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+  font-size: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.donate-btn {
+  background: white;
+  border: black solid 0.5px;
+  padding: 8px;
+  margin: 60px;
+}
+
+.donate-btn:hover {
+  background: gray;
+  cursor: pointer;
+}
+
+.first-sec h1 {
+  font-size: 30px;
+
+  margin-left: 60px;
+  color: white;
+}
+
+.first-sec p {
+  margin-left: 60px;
+  color: white;
+}
+
+.second-sec {
+  display: flex;
+}
+
+.second-sec1 {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.second-sec1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.second-sec2 {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.second-sec2 h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.second-sec2 p {
+  color: white;
+}
+
+.second-sec2 button {
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.third {
+  position: relative;
+  background-color: #1d1e20; /* Added background color to third section */
+  z-index: 1; /* Ensure third section is above the ::before pseudo-element */
+  background-image: url(IMG-20231025-WA0040.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.third h1 {
+  font-size: 90px;
+  color: white;
+  text-align: center;
+}
+
+.third p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.fourth {
+  display: flex;
+  width: 100%;
+  background-color: #1d1e20; /* Added background color to fourth section */
+}
+
+.fourth-one {
+  flex: 1;
+  background-color: rgb(83, 28, 28);
+}
+
+.fourth-two {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.fourth-one img {
+  max-width: 100%;
+  height: auto;
+}
+.fourth-two p {
+  color: white;
+}
+.fourth-two h3 {
+  color: white;
+}
+.fourth-two h1 {
+  color: white;
+  font-size: 40px;
+}
+.fourth-two button {
+  padding: 10px;
+  width: 25%;
+}
+.para1 {
+  font-size: 70px;
+  text-align: center;
+  color: white;
+}
+.span1,
+.span2 {
+  color: white;
+  text-align: center;
+  margin-top: 0;
+}
+.span3 {
+  text-align: left;
+  color: white;
+  display: inline;
+  margin-right: 270px;
+}
+.span4 {
+  display: inline;
+  text-align: end;
+  color: white;
+}
+.footer {
+  background-color: white;
+  color: black;
+  display: flex;
+}
+.footer-one {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 50px;
+}
+.footer-two {
+  flex: 2;
+  box-sizing: border-box;
+  margin-top: 80px;
+  margin-left: auto;
+}
+.footer-two img {
+  max-width: 65%;
+  height: auto;
+  margin-left: 150px;
+}
+.footer1 {
+  font-size: 50px;
+  font-weight: 400%;
+}
+.footer-one span {
+}
+.fifth {
+  background-color: #303234;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides:first-child {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.mySlides img {
+  border-radius: 50%;
+  filter: grayscale(90%);
+  -webkit-filter: grayscale(90%);
+}
+
+.certificates {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+.cert1 {
+  box-sizing: border-box;
+  
+  margin: 10px; 
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+.cert2 {
+  box-sizing: border-box;
+  margin: 10px; 
+  border: 1px solid #ccc; 
+  padding: 5px;
+}
+.cert3 {
+  box-sizing: border-box;
+  margin: 10px; 
+  border: 1px solid #ccc; 
+  padding: 5px;
+}
+.certificates img {
+  max-width: 300px;
+  height: 400px;
+}
+#certi{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.newspaper {
+  text-align: center; 
+ 
+}
+.donate{
+  color: white;
+}
+.donate h1{
+  text-align: center;
+  font-size: 36px;
+}
+.donate button{
+  background-color: rgb(163, 36, 36);
+  border: red solid 1px;
+  padding: 10px;
+  
+}
